@@ -1,5 +1,6 @@
 # UI for scatterplot
 library(shiny)
+library(ggplot2)
 
 # Get a vector of column names (from `mpg`) to use as select inputs
 select_values <- colnames(mpg)
